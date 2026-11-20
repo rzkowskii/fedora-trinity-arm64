@@ -1,0 +1,7 @@
+# build/session logs stay local (multi-hundred-MB, reproducible from scripts)
+logs/
+# downloaded SRPMs are re-fetched by scripts/10 from the TDE mirror (GPG-verified)
+rpmbuild/srpms/
+.DS_Store
+# binary RPMs are build output (scripts 10-12); they are not distributed in this repository
+repo/
